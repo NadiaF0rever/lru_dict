@@ -1,3 +1,7 @@
+/*
+ * 2017 (c) NadiaF0rever
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

@@ -1,3 +1,6 @@
+/*
+ * 2017 (c) NadiaF0rever
+ */
 
 #include "lru_dict.h"
 

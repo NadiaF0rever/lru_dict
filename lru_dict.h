@@ -1,3 +1,7 @@
+/*
+ * 2017 (c) NadiaF0rever
+ */
+
 #ifndef TCPREASSEMBLY_LRU_DICT_H
 #define TCPREASSEMBLY_LRU_DICT_H
 
