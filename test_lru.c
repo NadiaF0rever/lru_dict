@@ -1,19 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <stdint.h>
 
 #include "lru_dict.h"
 
 guint
 int_hash(gconstpointer v)
 {
-    return (guint)v;
+    return (guint)((uintptr_t)v);
 }
 
 gboolean
 int_equal(gconstpointer v1, gconstpointer v2)
 {
-    return ((guint)v1 == (guint)v2);
+    return ((uintptr_t)v1 == (uintptr_t)v2);
 }
 
 void
