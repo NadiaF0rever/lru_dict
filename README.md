@@ -2,7 +2,7 @@
 a simple lru dict implement by glib
 
 ## compile
-to compile `test_lru` you need [glib](https://developer.gnome.org/glib/) install on your system
+to compile `lru_dict` you need [glib](https://developer.gnome.org/glib/) install on your system
 
 Centos
 
